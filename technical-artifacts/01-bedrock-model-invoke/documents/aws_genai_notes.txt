@@ -1,0 +1,44 @@
+Amazon Bedrock Overview
+
+Amazon Bedrock is a managed AWS service that provides
+access to foundation models through APIs.
+
+Foundation Models
+
+Foundation models are large AI models trained on broad
+datasets. They can be adapted to perform tasks such as
+text generation, summarization and question answering.
+
+Embeddings
+
+Embeddings represent text as numerical vectors.
+They allow text with similar meanings to be compared
+using mathematical similarity measures.
+
+Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation, also called RAG,
+combines information retrieval with generative AI.
+
+A RAG system retrieves relevant information from
+external documents and provides that information
+as context to a language model.
+
+Document Chunking
+
+Document chunking divides large documents into smaller
+sections. Overlapping chunks can help preserve context
+across section boundaries.
+
+Vector Similarity
+
+Cosine similarity is one method for comparing embeddings.
+It measures the cosine of the angle between two vectors.
+It is commonly used to rank text by semantic similarity.
+
+Grounded Generation
+
+Grounded generation uses supplied evidence to produce
+answers. A well-designed RAG system should indicate
+when its retrieved context is insufficient to answer
+a question reliably.
